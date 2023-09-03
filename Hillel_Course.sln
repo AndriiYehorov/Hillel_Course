@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareNumber", "Lesson_2\Sq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReorderingOfNumbers", "Lesson_2\ReorderingOfNumbers\ReorderingOfNumbers.csproj", "{C41A2C7E-522B-43C2-834D-6B6DCC9A8CBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticMeanOfTwoNumbers", "Lesson_2\ArithmeticMeanOfTwoNumbers\ArithmeticMeanOfTwoNumbers.csproj", "{A7995797-B4FE-4874-8FD9-465012CFC7CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C41A2C7E-522B-43C2-834D-6B6DCC9A8CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41A2C7E-522B-43C2-834D-6B6DCC9A8CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41A2C7E-522B-43C2-834D-6B6DCC9A8CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7995797-B4FE-4874-8FD9-465012CFC7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7995797-B4FE-4874-8FD9-465012CFC7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7995797-B4FE-4874-8FD9-465012CFC7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7995797-B4FE-4874-8FD9-465012CFC7CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
