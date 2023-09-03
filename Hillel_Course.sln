@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseReading", "Lesson_2\ReverseReading\ReverseReading.csproj", "{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareNumber", "Lesson_2\SquareNumber\SquareNumber.csproj", "{D9A5A38D-64B8-4604-AB76-5CDB853BE720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A5A38D-64B8-4604-AB76-5CDB853BE720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A5A38D-64B8-4604-AB76-5CDB853BE720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A5A38D-64B8-4604-AB76-5CDB853BE720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A5A38D-64B8-4604-AB76-5CDB853BE720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
