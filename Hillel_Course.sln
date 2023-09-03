@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp", "FirstApp\FirstApp.csproj", "{0FF34480-C6DE-4294-A6EA-CF1B933E60C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstApp.csproj", "{0FF34480-C6DE-4294-A6EA-CF1B933E60C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseReading", "Lesson_2\ReverseReading\ReverseReading.csproj", "{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0FF34480-C6DE-4294-A6EA-CF1B933E60C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF34480-C6DE-4294-A6EA-CF1B933E60C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF34480-C6DE-4294-A6EA-CF1B933E60C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7DE00B-08EC-48EF-9FAD-6CBC2D419267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
