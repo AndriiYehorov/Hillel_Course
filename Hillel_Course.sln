@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithmeticMeanOfTwoNumbers"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapVariables", "Lesson_2\SwapVariables\SwapVariables.csproj", "{CE56E445-CF61-4AA8-B67C-0E067D4F9920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOrOdd", "Lesson_3\EvenOrOdd\EvenOrOdd.csproj", "{1302473E-A03A-4AA1-92A0-C141877F417B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenOrOdd", "Lesson_3\EvenOrOdd\EvenOrOdd.csproj", "{1302473E-A03A-4AA1-92A0-C141877F417B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreOrLess", "Lesson_3\MoreOrLess\MoreOrLess.csproj", "{590B6B1F-D978-406C-8A26-9398F8CA1D91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreOrLess", "Lesson_3\MoreOrLess\MoreOrLess.csproj", "{590B6B1F-D978-406C-8A26-9398F8CA1D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfTheWeek", "Lesson_3\DayOfTheWeek\DayOfTheWeek.csproj", "{87A6D059-2615-443F-9C3E-59A5C3FAF87D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{590B6B1F-D978-406C-8A26-9398F8CA1D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{590B6B1F-D978-406C-8A26-9398F8CA1D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{590B6B1F-D978-406C-8A26-9398F8CA1D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A6D059-2615-443F-9C3E-59A5C3FAF87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A6D059-2615-443F-9C3E-59A5C3FAF87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A6D059-2615-443F-9C3E-59A5C3FAF87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A6D059-2615-443F-9C3E-59A5C3FAF87D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
