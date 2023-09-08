@@ -23,15 +23,15 @@
         {
             if (firstNumber < secondNumber)
             {
-                //первое число больше
+                Console.WriteLine($"число {firstNumber} меньше числа {secondNumber}");
             }
             else if (firstNumber > secondNumber)
             {
-                //второе число больше
+                Console.WriteLine($"число {firstNumber} больше числа {secondNumber}");
             }
             else
             {
-                //числа равны
+                Console.WriteLine("Числа равны");
             }
             return "";
         }
