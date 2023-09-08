@@ -7,6 +7,10 @@ namespace MultiplicityOfNumbers
         static void Main(string[] args)
         {
             int result = GettingDataFromUser();
+            if (result == 0)
+            {
+                return;
+            }
             Calculate(result);
             Console.ReadKey();
         }
@@ -17,12 +21,17 @@ namespace MultiplicityOfNumbers
 
             string input = Console.ReadLine();
             int num = int.Parse(input);
+            if (num > 100 || num < 1) 
+            {
+                Console.WriteLine("Внимательней читай условие задачи!");
+                return 0;
+            }
             return num;
         }
 
         static void Calculate(int num)
         {
-            if (num % 15==0)
+            if (num % 15 == 0)
             {
                 Console.WriteLine("FizzBuzz");   
             }
