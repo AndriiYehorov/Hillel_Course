@@ -14,7 +14,7 @@ namespace GuessTheNumber
 
         static void CheckNum(int secretNumber)
         {   
-            int iterator = 0;
+            byte iterator = 0;
             int chekNum = 0;
             Console.WriteLine("Угадай число от 1 до 146: ");
             do
