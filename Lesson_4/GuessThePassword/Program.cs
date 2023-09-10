@@ -22,7 +22,11 @@ namespace GuessThePassword
                 Console.WriteLine("Введи пароль: ");
                 pass = Console.ReadLine();
                 if (pass=="root") 
-                    passTrue = true;    
+                    passTrue = true;
+                else
+                {
+                    Console.WriteLine("Неправильний пароль!");
+                }
             }
             return passTrue;
         }
