@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfTheWeek", "Lesson_3\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeOfTheYear", "Lesson_3\TimeOfTheYear\TimeOfTheYear.csproj", "{D3549B0F-94B3-4772-B37B-231952BA77BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicityOfNumbers", "Lesson_3\MultiplicityOfNumbers\MultiplicityOfNumbers.csproj", "{13C6A4E6-F165-421E-978D-278C4BF7DC3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicityOfNumbers", "Lesson_3\MultiplicityOfNumbers\MultiplicityOfNumbers.csproj", "{13C6A4E6-F165-421E-978D-278C4BF7DC3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessThePassword", "Lesson_4\GuessThePassword\GuessThePassword.csproj", "{73065A6C-FE53-4553-B4F4-6F80DF1C11C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{13C6A4E6-F165-421E-978D-278C4BF7DC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C6A4E6-F165-421E-978D-278C4BF7DC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C6A4E6-F165-421E-978D-278C4BF7DC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73065A6C-FE53-4553-B4F4-6F80DF1C11C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73065A6C-FE53-4553-B4F4-6F80DF1C11C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73065A6C-FE53-4553-B4F4-6F80DF1C11C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73065A6C-FE53-4553-B4F4-6F80DF1C11C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
