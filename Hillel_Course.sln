@@ -25,14 +25,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeOfTheYear", "Lesson_3\T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicityOfNumbers", "Lesson_3\MultiplicityOfNumbers\MultiplicityOfNumbers.csproj", "{13C6A4E6-F165-421E-978D-278C4BF7DC3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessThePassword", "Lesson_4\GuessThePassword\GuessThePassword.csproj", "{73065A6C-FE53-4553-B4F4-6F80DF1C11C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessThePassword", "Lesson_4\GuessThePassword\GuessThePassword.csproj", "{73065A6C-FE53-4553-B4F4-6F80DF1C11C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber", "Lesson_4\GuessTheNumber\GuessTheNumber.csproj", "{9DEAE5EE-816D-469D-AF92-AB2F3D4035DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessTheNumber", "Lesson_4\GuessTheNumber\GuessTheNumber.csproj", "{9DEAE5EE-816D-469D-AF92-AB2F3D4035DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDFA55A2-D2C8-4E0E-8A92-2523938D42FD}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNumberOrNot", "Lesson_4\SimpleNumberOrNot\SimpleNumberOrNot.csproj", "{86CA1109-7879-4EFB-B4CC-EAA7154AD902}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +94,10 @@ Global
 		{9DEAE5EE-816D-469D-AF92-AB2F3D4035DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DEAE5EE-816D-469D-AF92-AB2F3D4035DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DEAE5EE-816D-469D-AF92-AB2F3D4035DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CA1109-7879-4EFB-B4CC-EAA7154AD902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CA1109-7879-4EFB-B4CC-EAA7154AD902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CA1109-7879-4EFB-B4CC-EAA7154AD902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CA1109-7879-4EFB-B4CC-EAA7154AD902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
