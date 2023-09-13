@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddElementBeforeArray", "Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhNoThatsMinusOne", "Lesson_5\OhNoThatsMinusOne\OhNoThatsMinusOne.csproj", "{50AA7CC1-86B1-42F1-A68E-F6055950CD8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveArrayElement", "Lesson_5\RemoveArrayElement\RemoveArrayElement.csproj", "{36963F3E-2FCE-4428-873E-AD2B21881C0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{50AA7CC1-86B1-42F1-A68E-F6055950CD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50AA7CC1-86B1-42F1-A68E-F6055950CD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50AA7CC1-86B1-42F1-A68E-F6055950CD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36963F3E-2FCE-4428-873E-AD2B21881C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36963F3E-2FCE-4428-873E-AD2B21881C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36963F3E-2FCE-4428-873E-AD2B21881C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36963F3E-2FCE-4428-873E-AD2B21881C0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
