@@ -44,7 +44,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveArrayElement", "Lesso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeArrays", "Lesson_5\MergeArrays\MergeArrays.csproj", "{63605D61-1072-4161-B49B-582040117A3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedOrNot", "Lesson_5\SortedOrNot\SortedOrNot.csproj", "{FD64EC4A-CF25-4319-932B-957CF7A02B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedOrNot", "Lesson_5\SortedOrNot\SortedOrNot.csproj", "{FD64EC4A-CF25-4319-932B-957CF7A02B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfEvenArrayElements", "Lesson_6\SumOfEvenArrayElements\SumOfEvenArrayElements.csproj", "{5E847B69-FA2B-4F74-988D-FAC83824894A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +130,10 @@ Global
 		{FD64EC4A-CF25-4319-932B-957CF7A02B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD64EC4A-CF25-4319-932B-957CF7A02B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD64EC4A-CF25-4319-932B-957CF7A02B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E847B69-FA2B-4F74-988D-FAC83824894A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E847B69-FA2B-4F74-988D-FAC83824894A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E847B69-FA2B-4F74-988D-FAC83824894A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E847B69-FA2B-4F74-988D-FAC83824894A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
