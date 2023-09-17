@@ -46,9 +46,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeArrays", "Lesson_5\Mer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedOrNot", "Lesson_5\SortedOrNot\SortedOrNot.csproj", "{FD64EC4A-CF25-4319-932B-957CF7A02B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfEvenArrayElements", "Lesson_6\SumOfEvenArrayElements\SumOfEvenArrayElements.csproj", "{5E847B69-FA2B-4F74-988D-FAC83824894A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfEvenArrayElements", "Lesson_6\SumOfEvenArrayElements\SumOfEvenArrayElements.csproj", "{5E847B69-FA2B-4F74-988D-FAC83824894A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayElements", "Lesson_6\ProductOfArrayElements\ProductOfArrayElements.csproj", "{DC15949F-353B-4065-A3EB-2088778033D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfArrayElements", "Lesson_6\ProductOfArrayElements\ProductOfArrayElements.csproj", "{DC15949F-353B-4065-A3EB-2088778033D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomJournal", "Lesson_6\ClassroomJournal\ClassroomJournal.csproj", "{FF6B4DF6-E020-478C-B52A-E569945C2E35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +142,10 @@ Global
 		{DC15949F-353B-4065-A3EB-2088778033D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC15949F-353B-4065-A3EB-2088778033D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC15949F-353B-4065-A3EB-2088778033D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6B4DF6-E020-478C-B52A-E569945C2E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6B4DF6-E020-478C-B52A-E569945C2E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6B4DF6-E020-478C-B52A-E569945C2E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6B4DF6-E020-478C-B52A-E569945C2E35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
