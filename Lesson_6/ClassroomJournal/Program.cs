@@ -12,13 +12,12 @@ namespace ClassroomJournal
             do
             {
                 Console.Clear();
-                byte elMenu;
                 Console.WriteLine((byte)Menu.Fill + ". Fill out the assessments");
                 Console.WriteLine((byte)Menu.Average + ". Get average assessments");
                 Console.WriteLine((byte)Menu.Show + ". Show current rating");
                 Console.WriteLine((byte)Menu.Exit + ". Exit");
                 Console.WriteLine("Make your choice:");
-                elMenu = ReadChoice();
+                byte elMenu = ReadChoice();
                 Console.Clear();
                 if (elMenu == (byte)Menu.Exit)
                 {
@@ -86,35 +85,6 @@ namespace ClassroomJournal
             return choice;
         }
 
-        private static int[] SelectLesson(int[] physics, int[] history, int[] mathematic, byte option)
-        {
-            Console.Clear();
-            while (true)
-            {
-                string text = (option == 0 ? "Select an subject to fill out: \n1. Mathematic\n2. History\n3. Physics\n" : "По какому предмету вывести среднюю оценку?: \n1. Математика\n2. История\n3. Физика\n");
-                Console.WriteLine(text);
-                string input = Console.ReadLine();
-                bool res = int.TryParse(input, out int result);
-                switch (result)
-                {
-                    case 1:
-                        Console.WriteLine("Mathematic selected!");
-                        return mathematic;
-                    case 2:
-                        Console.WriteLine("History selected!");
-                        return history;
-                    case 3:
-                        Console.WriteLine("Physics selected!");
-                        return physics;
-                    default:
-                        Console.WriteLine("Undefined command!");
-                        break;
-                }
-                Console.ReadLine();
-                Console.Clear();
-            }
-        }
-
         private static void AverageGrade(int[] arr)
         {
             DisplayArray(arr);
@@ -132,7 +102,7 @@ namespace ClassroomJournal
                     break;
                 }
             }
-            Console.WriteLine("Средняя оценка равна: {0}", avrg /= count);
+            Console.WriteLine("The average score is: {0}", avrg /= count);
         }
 
         private static void GradeInput(int[] arr)
@@ -160,7 +130,7 @@ namespace ClassroomJournal
 
         private static bool ContinueInputingData()
         {
-            Console.WriteLine("Продолжить ввод данных?\n1.Да\t2.Нет");
+            Console.WriteLine("Continue entering data?\n1.Yes\t2.Not");
             string input = Console.ReadLine();
             bool res = int.TryParse(input,out int result);
             switch (result)
@@ -177,7 +147,7 @@ namespace ClassroomJournal
 
         private static void DisplayArray(int[] arr)
         {
-            Console.WriteLine("Текущая успеваемость: ");
+            Console.WriteLine("Current performance: ");
             foreach (int el in arr)
             {
                 Console.Write(el + "\t");
