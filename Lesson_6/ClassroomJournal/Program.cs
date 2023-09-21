@@ -8,35 +8,82 @@ namespace ClassroomJournal
             int[] physics = InitializeData(10);
             int[] history = InitializeData(10);
             int[] mathematic = InitializeData(10);
-            while (true)
+
+            do
             {
-                Console.WriteLine("\n1. Заполнить оценки\n2. Получить среднюю оценку\n3. Показать текущие оценки\n4. Exit\nChoose an option: ");
-                string input = Console.ReadLine();
-                bool res = int.TryParse(input, out int result);
-                switch (result)
-                {
-                    case 1:
-                        Console.WriteLine("Выбрана команда заполнения оценок!");
-                        GradeInput(SelectLesson(physics, history, mathematic,0));
-                        break;
-                    case 2:
-                        Console.WriteLine("Выбрана команда получения средней оценки!");
-                        AverageGrade(SelectLesson(physics, history, mathematic,1));
-                        break;
-                    case 3:
-                        Console.WriteLine("Выбрана команда просмотра текущих оценок!");
-                        DisplayArray(SelectLesson(physics, history, mathematic, 1));
-                        break;
-                    case 4:
-                        Console.WriteLine("Программа завершается");
-                        return;
-                    default:
-                        Console.WriteLine("Неверная команда!");
-                        break;
-                }
-                Console.ReadLine();
                 Console.Clear();
+                byte elMenu;
+                Console.WriteLine((byte)Menu.Fill + ". Fill out the assessments");
+                Console.WriteLine((byte)Menu.Average + ". Get average assessments");
+                Console.WriteLine((byte)Menu.Show + ". Show current rating");
+                Console.WriteLine((byte)Menu.Exit + ". Exit");
+                Console.WriteLine("Make your choice:");
+                elMenu = ReadChoice();
+                Console.Clear();
+                if (elMenu == (byte)Menu.Exit)
+                {
+                    break;
+                }
+
+                Console.WriteLine((byte)SubMenu.Physics + ". Physics");
+                Console.WriteLine((byte)SubMenu.History + ". History");
+                Console.WriteLine((byte)SubMenu.Mathematic + ". Mathematic");
+                Console.WriteLine((byte)SubMenu.Back + ". Back");
+                Console.WriteLine("Make your choice:");
+
+                byte elSubMenu = ReadChoice();
+                if ((SubMenu)elSubMenu == SubMenu.Back)
+                {
+                    continue;
+                }
+
+                if ((Menu)elMenu == Menu.Average)
+                {
+                    AverageGrade(SelectSubject(physics, history, mathematic, elSubMenu));
+                }
+                else if ((Menu)elMenu == Menu.Fill)
+                {
+                    GradeInput(SelectSubject(physics, history, mathematic, elSubMenu));
+                }
+                else
+                {
+                    DisplayArray(SelectSubject(physics, history, mathematic, elSubMenu));
+                }
+
+                Console.ReadKey();
+                Console.Clear();
+            } while (true);
+
+        }
+
+        private static int[] SelectSubject(int[] physics, int[] history, int[] mathematic, byte elSubMenu)
+        {
+            if ((SubMenu)elSubMenu == SubMenu.Physics)
+            {
+                return physics;
             }
+            else if ((SubMenu)elSubMenu == SubMenu.History)
+            {
+                return history;
+            }
+            else
+            {
+                return mathematic;
+            }
+        }
+
+        static byte ReadChoice()
+        {
+            string enter;
+            bool isInputRight;
+            byte choice;
+            Console.WriteLine("");
+            do
+            {
+                enter = Console.ReadLine();
+                isInputRight = byte.TryParse(enter, out choice);
+            } while (!isInputRight || choice < (byte)Menu.Exit || choice > (byte)Menu.Show);
+            return choice;
         }
 
         private static int[] SelectLesson(int[] physics, int[] history, int[] mathematic, byte option)
@@ -44,23 +91,23 @@ namespace ClassroomJournal
             Console.Clear();
             while (true)
             {
-                string text = (option == 0 ? "Выберите предмет для заполнения: \n1. Математика\n2. История\n3. Физика\n" : "По какому предмету вывести среднюю оценку?: \n1. Математика\n2. История\n3. Физика\n");
+                string text = (option == 0 ? "Select an subject to fill out: \n1. Mathematic\n2. History\n3. Physics\n" : "По какому предмету вывести среднюю оценку?: \n1. Математика\n2. История\n3. Физика\n");
                 Console.WriteLine(text);
                 string input = Console.ReadLine();
                 bool res = int.TryParse(input, out int result);
                 switch (result)
                 {
                     case 1:
-                        Console.WriteLine("Математика выбрана!");
+                        Console.WriteLine("Mathematic selected!");
                         return mathematic;
                     case 2:
-                        Console.WriteLine("История выбрана!");
+                        Console.WriteLine("History selected!");
                         return history;
                     case 3:
-                        Console.WriteLine("Физика выбрана!");
+                        Console.WriteLine("Physics selected!");
                         return physics;
                     default:
-                        Console.WriteLine("Неверная команда!");
+                        Console.WriteLine("Undefined command!");
                         break;
                 }
                 Console.ReadLine();
@@ -108,7 +155,6 @@ namespace ClassroomJournal
             } else
             {
                 Console.ReadLine();
-                Console.Clear();
             }
         }
 
