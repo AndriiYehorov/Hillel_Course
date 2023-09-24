@@ -56,7 +56,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingLastNames", "Lesson_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixElements", "Lesson_6\MatrixElements\MatrixElements.csproj", "{165BF192-6B98-41E6-966F-6ED1163D604B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Lesson_7\Calculator\Calculator.csproj", "{8EB82902-F67F-4C7A-AC27-80C6AE5C692F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Lesson_7\Calculator\Calculator.csproj", "{8EB82902-F67F-4C7A-AC27-80C6AE5C692F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostalAddresses", "Lesson_8\PostalAddresses\PostalAddresses.csproj", "{82B8CF75-056E-4FD5-A532-5742F909A16A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -164,6 +166,10 @@ Global
 		{8EB82902-F67F-4C7A-AC27-80C6AE5C692F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB82902-F67F-4C7A-AC27-80C6AE5C692F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB82902-F67F-4C7A-AC27-80C6AE5C692F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B8CF75-056E-4FD5-A532-5742F909A16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B8CF75-056E-4FD5-A532-5742F909A16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B8CF75-056E-4FD5-A532-5742F909A16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B8CF75-056E-4FD5-A532-5742F909A16A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
