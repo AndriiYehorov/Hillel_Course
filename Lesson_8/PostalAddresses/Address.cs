@@ -9,7 +9,7 @@
             get { return index; }
             set
             {
-                if (value >= 11111 && value <= 99999)
+                if (value >= 10000 && value <= 99999)
                 {
                     index = value;
                 }

@@ -73,25 +73,38 @@
             int result;
             do
             {
-                Console.WriteLine("Ведите индекс (формат 1001-9999): ");
+                Console.Write("Ведите индекс (формат 1001-9999): ");
                 string index = Console.ReadLine();
                 res = int.TryParse(index, out result);
             } while (!res);
             arrAdr.Index = result;
-            Console.WriteLine("Ведите страну: ");
+            Console.Write("Ведите страну: ");
             arrAdr.Country = Console.ReadLine();
-            Console.WriteLine("Ведите город: ");
+            Console.Write("Ведите город: ");
             arrAdr.City = Console.ReadLine();
-            Console.WriteLine("Ведите улицу: ");
+            Console.Write("Ведите улицу: ");
             arrAdr.Street = Console.ReadLine(); ;
-            Console.WriteLine("Ведите номер дома: ");
+            Console.Write("Ведите номер дома: ");
             arrAdr.House = Console.ReadLine(); ;
-            Console.WriteLine("Ведите квартиру: ");
+            Console.Write("Ведите квартиру: ");
             arrAdr.Apartment = Console.ReadLine();
         }
 
         private static bool ContinueFill()
         {
+            Console.WriteLine("Адрес успешно добавлен. Продолжить добавление?\n1.Да\t2.Нет");
+            string input = Console.ReadLine();
+            bool res = int.TryParse(input, out int result);
+            switch (result)
+            {
+                case 1:
+                    return true;
+                case 2:
+                    return false;
+                default:
+                    ContinueFill();
+                    break;
+            }
             return false;
         }
 
