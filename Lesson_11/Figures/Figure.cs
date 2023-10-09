@@ -6,16 +6,4 @@
         protected double y;
 
     }
-
-    class Circle : Figure
-    {
-        double radius;
-        
-    }
-
-    class Rectangle : Figure
-    {
-        double width;
-        double height;
-    }
 }

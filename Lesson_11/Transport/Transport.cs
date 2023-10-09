@@ -8,16 +8,4 @@ namespace Vehicles
         protected int maxSpeed;
 
     }
-
-    class Сar : Transport
-    {
-        int quantityOfDoors;
-
-    }
-
-    class Bike : Transport
-    {
-        string bikeType;
-        
-    }
 }
