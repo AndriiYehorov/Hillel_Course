@@ -70,6 +70,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicles", "Lesson_11\Trans
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "Lesson_12\BankAccount\BankAccount.csproj", "{5FBEB0BB-B559-4B1D-9901-C8B75AF66E1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentWorker", "Lesson_12\DocumentWorker\DocumentWorker.csproj", "{B3A6BEEB-2582-4852-984A-C955204818CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -200,9 +202,16 @@ Global
 		{5FBEB0BB-B559-4B1D-9901-C8B75AF66E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FBEB0BB-B559-4B1D-9901-C8B75AF66E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FBEB0BB-B559-4B1D-9901-C8B75AF66E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A6BEEB-2582-4852-984A-C955204818CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A6BEEB-2582-4852-984A-C955204818CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A6BEEB-2582-4852-984A-C955204818CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A6BEEB-2582-4852-984A-C955204818CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3A6BEEB-2582-4852-984A-C955204818CA} = {BDFA55A2-D2C8-4E0E-8A92-2523938D42FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AF006C-2F29-4AA2-A5D1-483B955B63A1}
