@@ -2,18 +2,25 @@
 {
     internal class DocumentWorker
     {
-        private static void OpenDocument()
+        public void OpenDocument()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Документ відкритий");
         }
-        private static void EditDocument()
+        public virtual void EditDocument()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Редагування документа доступне у версії Про");
         }
 
-        private static void SaveDocument()
+        public virtual void SaveDocument()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Збереження документа доступне у версії Про");
+        }
+
+        public virtual void Print() 
+        {
+            OpenDocument();
+            EditDocument();
+            SaveDocument();
         }
     }
 }
