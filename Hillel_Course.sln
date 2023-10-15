@@ -68,9 +68,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Figures", "Lesson_11\Figure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicles", "Lesson_11\Transport\Vehicles.csproj", "{8B615B33-3F27-40EB-9335-079351248E5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "Lesson_12\BankAccount\BankAccount.csproj", "{5FBEB0BB-B559-4B1D-9901-C8B75AF66E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount", "Lesson_12\BankAccount\BankAccount.csproj", "{5FBEB0BB-B559-4B1D-9901-C8B75AF66E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentWorker", "Lesson_12\DocumentWorker\DocumentWorker.csproj", "{B3A6BEEB-2582-4852-984A-C955204818CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentWorker", "Lesson_12\DocumentWorker\DocumentWorker.csproj", "{B3A6BEEB-2582-4852-984A-C955204818CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMovable", "Lesson_13\IMovable\IMovable.csproj", "{60709F9D-3874-48A4-98A2-DFCED7AB8E72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -206,6 +208,10 @@ Global
 		{B3A6BEEB-2582-4852-984A-C955204818CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3A6BEEB-2582-4852-984A-C955204818CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3A6BEEB-2582-4852-984A-C955204818CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60709F9D-3874-48A4-98A2-DFCED7AB8E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60709F9D-3874-48A4-98A2-DFCED7AB8E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60709F9D-3874-48A4-98A2-DFCED7AB8E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60709F9D-3874-48A4-98A2-DFCED7AB8E72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
