@@ -2,7 +2,7 @@
 {
     internal interface IMovable
     {
-        virtual void Move(int x, int y) { }
+        public void Move(int x, int y);
         
     }
 }

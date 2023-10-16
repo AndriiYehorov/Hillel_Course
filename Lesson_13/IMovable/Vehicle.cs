@@ -4,18 +4,8 @@ namespace IMovable
 {
     public class Vehicle : IMovable
     {
-		private Point position;
+		public Point Position;
 
-		public Point Position
-		{
-			get { return position; }
-			set { position = value; }
-		}
-
-		public override void Move()
-		{
-
-		}
-
+		public void Move(int x, int y)=> Position = new Point(x, y);
 	}
 }
