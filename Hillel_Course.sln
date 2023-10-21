@@ -74,7 +74,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentWorker", "Lesson_12
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMovable", "Lesson_13\IMovable\IMovable.csproj", "{60709F9D-3874-48A4-98A2-DFCED7AB8E72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathUtility", "Lesson_13\MathUtility\MathUtility.csproj", "{CEC050B6-C06C-4118-AD83-84BB2E3C0FD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathUtility", "Lesson_13\MathUtility\MathUtility.csproj", "{CEC050B6-C06C-4118-AD83-84BB2E3C0FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProduseStore", "Lesson_14\ProduseStore\ProduseStore.csproj", "{76AF2C91-BF1F-49D7-AB9C-EDE2C062B0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderQueue", "Lesson_14\OrderQueue\OrderQueue.csproj", "{5F7CE3D9-B518-452C-A3E8-361B752ADD9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingDictionaryContacts", "Lesson_14\ManagingDictionaryContacts\ManagingDictionaryContacts.csproj", "{C6EC5E78-1E16-41C0-9074-3727FC9FE545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -218,6 +224,18 @@ Global
 		{CEC050B6-C06C-4118-AD83-84BB2E3C0FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEC050B6-C06C-4118-AD83-84BB2E3C0FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEC050B6-C06C-4118-AD83-84BB2E3C0FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AF2C91-BF1F-49D7-AB9C-EDE2C062B0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AF2C91-BF1F-49D7-AB9C-EDE2C062B0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AF2C91-BF1F-49D7-AB9C-EDE2C062B0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AF2C91-BF1F-49D7-AB9C-EDE2C062B0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7CE3D9-B518-452C-A3E8-361B752ADD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7CE3D9-B518-452C-A3E8-361B752ADD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7CE3D9-B518-452C-A3E8-361B752ADD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7CE3D9-B518-452C-A3E8-361B752ADD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EC5E78-1E16-41C0-9074-3727FC9FE545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EC5E78-1E16-41C0-9074-3727FC9FE545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EC5E78-1E16-41C0-9074-3727FC9FE545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EC5E78-1E16-41C0-9074-3727FC9FE545}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
