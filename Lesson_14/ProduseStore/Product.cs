@@ -1,15 +1,16 @@
 ﻿namespace ProduseStore
 {
-    internal class Product
+    public class Product
     {
-        public int Id { get; set; }
+        private static int id=1;
         public string Name { get; set; }
         public double Price { get; set; }
-        public Product(int id, string name, double price)
+        public int Id { get; set; }
+        public Product(string name, double price)
         {
-            this.Id = id;
-            this.Name = name;
-            this.Price = price;
+            Id = id++;
+            Name = name;
+            Price = price;
         }
         public override string ToString()
         {
