@@ -76,11 +76,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMovable", "Lesson_13\IMova
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathUtility", "Lesson_13\MathUtility\MathUtility.csproj", "{CEC050B6-C06C-4118-AD83-84BB2E3C0FD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProduseStore", "Lesson_14\ProduseStore\ProduseStore.csproj", "{76AF2C91-BF1F-49D7-AB9C-EDE2C062B0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProduseStore", "Lesson_14\ProduseStore\ProduseStore.csproj", "{76AF2C91-BF1F-49D7-AB9C-EDE2C062B0B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderQueue", "Lesson_14\OrderQueue\OrderQueue.csproj", "{5F7CE3D9-B518-452C-A3E8-361B752ADD9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderQueue", "Lesson_14\OrderQueue\OrderQueue.csproj", "{5F7CE3D9-B518-452C-A3E8-361B752ADD9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingDictionaryContacts", "Lesson_14\ManagingDictionaryContacts\ManagingDictionaryContacts.csproj", "{C6EC5E78-1E16-41C0-9074-3727FC9FE545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagingDictionaryContacts", "Lesson_14\ManagingDictionaryContacts\ManagingDictionaryContacts.csproj", "{C6EC5E78-1E16-41C0-9074-3727FC9FE545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "Lesson_15\LINQ\LINQ.csproj", "{DEFFED9E-2B5A-47F0-AAFB-C4E070BB04C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -236,6 +238,10 @@ Global
 		{C6EC5E78-1E16-41C0-9074-3727FC9FE545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6EC5E78-1E16-41C0-9074-3727FC9FE545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6EC5E78-1E16-41C0-9074-3727FC9FE545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFFED9E-2B5A-47F0-AAFB-C4E070BB04C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFFED9E-2B5A-47F0-AAFB-C4E070BB04C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFFED9E-2B5A-47F0-AAFB-C4E070BB04C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFFED9E-2B5A-47F0-AAFB-C4E070BB04C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
