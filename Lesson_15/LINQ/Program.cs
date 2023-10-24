@@ -1,4 +1,8 @@
-﻿namespace LINQ;
+﻿using System.Collections;
+using System.Text.Json;
+using System.Xml.Linq;
+
+namespace LINQ;
 class Program
 {
     static void Main(string[] args)
@@ -55,7 +59,67 @@ class Program
         int[] ints = { 10, 25, 8, 45, 15, 30, 55, 5 };
         var findInts = ints.Max(i => i);
         Console.WriteLine(findInts);
+        Console.WriteLine();
+        List<ArrayList> students = new List<ArrayList>();
+        InitialData(students);
+        Console.WriteLine("- Фільтрація: Знайдіть усіх студентів, які мають оцінку більше або рівну 90.");
+        var selecrGrade = students.Where(student => (int)student[1]>=90);
+        foreach (var grade in selecrGrade)
+        {
+            Console.WriteLine($"{grade[0]},{grade[1]},{grade[2]}");
+        }
+        Console.WriteLine();
+        Console.WriteLine("- Сортування: Відсортуйте студентів за оцінкою в спадаючому порядку.");
+        var sortStudents = students.OrderBy(student => -(int)student[1]);
+        foreach (var student in sortStudents)
+        {
+            Console.WriteLine($"{student[0]},{student[1]},{student[2]}");
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("- Групування: Згрупуйте студентів за курсами і виведіть список студентів на кожному курсі.");
+        var groupStudents = from student in students
+                            group student by student[2];
+        foreach (var student in groupStudents)
+        {
+            Console.WriteLine($"Курс: {student.Key} - Студенты:");
+            foreach(var student2 in student)
+            {
+                Console.WriteLine($"{student2[0]}");
+            }
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("- Підрахунок: Порахуйте кількість студентів на кожному курсі.");
+        var countStudents = from student in students
+                            group student by student[2];
+        foreach (var student in countStudents)
+        {
+            Console.WriteLine($"Курс: {student.Key} - количество студентов: { student.Count()}");
+        }
+        Console.WriteLine();
 
 
+        Console.WriteLine("- Проекція: Створіть список рядків, які містять ім'я та оцінку кожного студента.");
+        var nameAndGrade = students.Select(p => new
+         {
+             Name = p[0],
+             Grade = p[1]
+         });
+
+        foreach (var student in nameAndGrade)
+        {
+            Console.WriteLine($"Имя: {student.Name}, Оценка: {student.Grade}");
+        }
+    }
+
+    private static void InitialData(List<ArrayList> students)
+    {
+        students.Add(new ArrayList() { "Игорь", 92, "С#" });
+        students.Add(new ArrayList() { "Андрей", 90, "С#" });
+        students.Add(new ArrayList() { "Алина", 87, "Java" });
+        students.Add(new ArrayList() { "Иван", 96, "С++" });
+        students.Add(new ArrayList() { "Григорий", 75, "Java" });
+        students.Add(new ArrayList() { "Олег", 99, "С" });
     }
 }
